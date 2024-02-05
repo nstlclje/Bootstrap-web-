@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      #video-background {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        opacity: 100%; 
+        
+      }
+
+      .main-content {
+        position: absolute;
+        top: 30%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        width: 80%; 
+        z-index: 1;
+      }
+
+      h1 {
+        margin-bottom: 13px; 
+        color: #ffffff;
+      }
+
+      p {
+        color: #ffffff;
+        text-align: left;
+      }
+
+    </style>
+    <title>News Media Outlet</title>
+</head>
+<body>
+
+  <!-- Video Background -->
+  <video id="video-background" autoplay muted loop>
+    <source src="C:\Users\CLienT\Downloads\news media outlets\bgv.mp4" type="video/mp4">
+  </video>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b9e0ee;">
+    <a class="navbar-brand" href="#">News Media Outlet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="philippine_daily_inquirer.html">Philippine Daily Inquirer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="manila_bulletin.html">Manila Bulletin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gma_network.html">GMA Network</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="abs_cbn_news.html">ABS-CBN News</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container main-content">
+    <h1><b>Welcome to the News Media Outlet</b></h1>
+    <p>Get the latest news from top media outlets in the Philippines.</p>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

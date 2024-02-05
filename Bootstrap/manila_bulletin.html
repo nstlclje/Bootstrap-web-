@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Manila Bulletin</title>
+    <style>
+    .journalist-image {
+      width: 100px; 
+      height: 100px; 
+      object-fit: cover; 
+      margin-right: 10px;
+    }
+    
+    .title-image {
+      width: 50px; 
+      height: 50px; 
+      margin-right: 10px; 
+    }
+
+    h1 {
+      font-size: 2em; 
+      margin: 0; 
+      display: inline-block; 
+      vertical-align: middle; 
+    }
+    .container p{
+      text-align: justify;
+    }
+
+    h1.mb-3 {
+      margin-bottom: 0.75rem; 
+    }
+
+    #background-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+    }
+
+
+  </style>
+</head>
+<body>
+  <!-- Background Video -->
+  <video autoplay muted loop id="background-video">
+    <source src="C:\Users\CLienT\Downloads\news media outlets\bgv-mb.mp4" type="video/mp4">
+  </video>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f4f0;">
+    <a class="navbar-brand" href="#">News Media Outlet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="philippine_daily_inquirer.html">Philippine Daily Inquirer</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Manila Bulletin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gma_network.html">GMA Network</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="abs_cbn_news.html">ABS-CBN News</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <img src="C:\Users\CLienT\Downloads\news media outlets\logos\mb.png" alt="Title Image" class="title-image">
+    <h1 class="d-inline-block">Manila Bulletin</h1>
+    <h2>Mission</h2>
+    <p>In contributing to the pursuit of this vision of a just and prosperous society, the mission of the Manila Bulletin Publishing Corporation through its publications is to provide Filipinos in their country and Overseas Filipino Workers and residents accurate and objective news of the Philippines, without embellishment or advocacy of persons and parties but only in ideas. In doing so, it will strive to be positive rather than negative in its coverage and interpretation, build-up rather than destroy, encourage rather than take a stand of negative criticism and be courageous in reporting abuses and dishonesty, so that the medium will become an instrument of construction rather than destruction, without neglecting its critical function in society.</p>
+    <h2>Vision</h2>
+    <p>The Manila Bulletin Publishing Corporation, a publicly held corporation in the Philippines which publishes in print and online a daily broadsheet, tabloid-sized newspapers and various magazines in English, Filipino and the vernaculars, sees journalism as an instrument for the establishment of a just and fair society of citizens who love their country, work in unity for the common good of the people, advocate the interests of the people above the self, and through this view, contribute to the creation of a society of free citizens enjoying the prosperity and progress equitably.</p>
+    
+    <h2>Journalists</h2>
+    <ul>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\manila bulletin\edvr.jpg" alt="Ellalyn De Vera-Ruiz">
+        Ellalyn De Vera-Ruiz
+      </li>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\manila bulletin\fdr.jpg" alt="Frank Dick Rosete">
+        Frank Dick Rosete
+      </li>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\manila bulletin\cl.jpg" alt="Chino Leyco">
+        Chino Leyco
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

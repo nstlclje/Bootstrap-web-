@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ABS-CBN News</title>
+    <style>
+      .journalist-image {
+        width: 100px; /* Adjust the width as needed */
+        height: 100px; /* Adjust the height as needed */
+        object-fit: cover; /* Ensures the aspect ratio is maintained */
+        margin-right: 10px;
+      }
+  
+      .title-image {
+        width: 50px; 
+        height: 50px; 
+        margin-right: 10px; 
+      }
+  
+      h1 {
+        font-size: 2em; 
+        margin: 0; 
+        display: inline-block; 
+        vertical-align: middle; 
+      }
+      .container p{
+        text-align: justify;
+      }
+  
+      h1.mb-3 {
+        margin-bottom: 0.75rem; 
+      }
+
+      #background-video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+      }
+
+  </style>  
+</head>
+<body>
+  <!-- Background Video -->
+  <video autoplay muted loop id="background-video">
+    <source src="C:\Users\CLienT\Downloads\news media outlets\bgv-abs.mp4" type="video/mp4">
+  </video>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f4f0;">
+    <a class="navbar-brand" href="#">News Media Outlet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="philippine_daily_inquirer.html">Philippine Daily Inquirer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="manila_bulletin.html">Manila Bulletin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gma_network.html">GMA Network</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ABS-CBN News</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <img src="C:\Users\CLienT\Downloads\news media outlets\logos\abs-cbn news.png" alt="Title Image" class="title-image">
+    <h1 class="d-inline-block">ABS-CBN News</h1>
+    <h2>Mission</h2>
+    <p>We exist to serve the Filipino.<br>We exist to inform, educate, and entertain through creative content for any distribution platform.<br>We innovate, diversify, and expand into enterprises where our expertise in content creation opens new business and service opportunities.<br>We promote the best in Filipino talent, and reflect the true sentiment of the Filipino.</p>
+    <h2>Vision</h2>
+    <p>Transforming lives by changing the media landscape is both ABS-CBN's vision and passion. As our audiences demand greater control over how and when they will consume our content, we will ensure our continued relevance by distributing our content on the widest array of platforms that technology will allow. Our audiences will be able to reach us anytime, in any place, and in any medium and device.<br>While everything around us changes - the technology, the production process, the medium used to access our content - our core ability to create quality content that touch, inspire, and empower our viewers must remain constant. We will continue to build on our core strength of content creation.</p>
+  
+    <h2>Journalists</h2>
+    <ul>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\abs-cbn news\kd.png" alt="Karen Davila">
+        Karen Davila
+      </li>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\abs-cbn news\at.jpg" alt="Anthony Taberna">
+        Anthony Taberna
+      </li>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\abs-cbn news\tf.jpg" alt="Ted Failon">
+        Ted Failon
+      </li>
+    </ul>
+ </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

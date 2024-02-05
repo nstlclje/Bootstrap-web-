@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .journalist-image {
+        width: 100px; 
+        height: 100px; 
+        object-fit: cover; 
+        margin-right: 10px;
+      }
+
+      .title-image {
+        width: 50px; 
+        height: 50px; 
+        margin-right: 10px; 
+      }
+
+      h1 {
+        font-size: 2em; 
+        margin: 0; 
+        display: inline-block; 
+        vertical-align: middle; 
+      }
+      .container p{
+        text-align: justify;
+      }
+
+      h1.mb-3 {
+        margin-bottom: 0.75rem; 
+      }
+
+      #background-video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+      }
+
+      </style>
+    <title>Philippine Daily Inquirer</title>
+</head>
+<body>
+  <!-- Background Video -->
+  <video autoplay muted loop id="background-video">
+    <source src="C:\Users\CLienT\Downloads\news media outlets\bgv-inq.mp4" type="video/mp4">
+    
+  </video>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f4f0;">
+    <a class="navbar-brand" href="#">News Media Outlet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Philippine Daily Inquirer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="manila_bulletin.html">Manila Bulletin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gma_network.html">GMA Network</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="abs_cbn_news.html">ABS-CBN News</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <img src="C:\Users\CLienT\Downloads\news media outlets\logos\inq.png" alt="Title Image" class="title-image">
+    <h1 class="d-inline-block">Philippine Daily Inquirer</h1>
+    <h2>Mission</h2>
+    <p>We are a multi-media organization passionately telling the Filipino story.</p>
+    <h2>Vision</h2>
+    <p>Empowering the Filipino people.</p>
+
+    <h2>Journalists</h2>
+    <ul>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\ph daily inq\wm.png" alt="Winnie Monsod">
+        Winnie Monsod
+      </li>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\ph daily inq\rd.png" alt="Randy David">
+        Randy David
+      </li>
+      <li>
+        <img class="journalist-image" src="C:\Users\CLienT\Downloads\news media outlets\journalists\ph daily inq\ao.png" alt="Ambeth Ocampo">
+        Ambeth Ocampo
+      </li>
+    </ul>
+    
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
